@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Start and debug node-server",
+            "preLaunchTask": "node-tsc-watch",
+            "timeout": 10000,
+            "program": "${workspaceRoot}/node-server/main.ts",
+            "restart": true,
+            "cwd": "${workspaceRoot}",
+            "outFiles": [
+                "${workspaceRoot}/node-server/build/**/*.js",
+            ],
+            "sourceMaps": true
+        }
+    ]
+}

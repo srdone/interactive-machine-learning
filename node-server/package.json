@@ -1,0 +1,14 @@
+{
+  "name": "interactive-machine-learning-node-server",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "Stephen Done",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "2.7.2"
+  },
+  "dependencies": {
+    "inversify": "4.11.1",
+    "reflect-metadata": "0.1.12"
+  }
+}
