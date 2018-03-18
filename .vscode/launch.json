@@ -10,7 +10,7 @@
             "name": "Start and debug node-server",
             "preLaunchTask": "node-tsc-watch",
             "timeout": 10000,
-            "program": "${workspaceRoot}/node-server/main.ts",
+            "program": "${workspaceRoot}/node-server/src/main.ts",
             "restart": true,
             "cwd": "${workspaceRoot}",
             "outFiles": [

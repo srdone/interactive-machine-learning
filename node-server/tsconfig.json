@@ -16,7 +16,6 @@
     "outDir": "build/"
   },
   "include": [
-    "main.ts",
     "src/**/*.ts"
   ],
   "exclude": [
