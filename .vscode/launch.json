@@ -12,7 +12,7 @@
             "timeout": 10000,
             "program": "${workspaceRoot}/node-server/src/main.ts",
             "restart": true,
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}/node-server/src",
             "outFiles": [
                 "${workspaceRoot}/node-server/build/**/*.js",
             ],
